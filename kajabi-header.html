@@ -1,0 +1,22 @@
+<!-- JCO UTM tracker — paste this once into Kajabi > Settings > Site Details > Header Code,
+     BELOW the ChatGPT pixel (oaiq init) and jcoWhenGranted. The script itself lives in
+     github.com/Bastiaandk/jco-tracking (jco-forms.js); edit it there, not here. -->
+<style>
+  /* Velden "Lead source" (custom_50) en "Google click ID" (custom_51) onzichtbaar maken */
+  #form_submission_custom_50,
+  input[name="form_submission[custom_50]"],
+  input[placeholder="Lead source"],
+  .form-group:has(input[name="form_submission[custom_50]"]),
+  .form__group:has(input[name="form_submission[custom_50]"]),
+  .form-group:has(input[placeholder="Lead source"]),
+  .form__group:has(input[placeholder="Lead source"]),
+  #form_submission_custom_51,
+  input[name="form_submission[custom_51]"],
+  input[placeholder="Google click ID"],
+  .form-group:has(input[name="form_submission[custom_51]"]),
+  .form__group:has(input[name="form_submission[custom_51]"]),
+  .form-group:has(input[placeholder="Google click ID"]),
+  .form__group:has(input[placeholder="Google click ID"]) { display: none !important; }
+</style>
+<script src="https://bastiaandk.github.io/jco-tracking/jco-forms.js" defer></script>
+<!-- End JCO UTM tracker -->
