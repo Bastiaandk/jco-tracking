@@ -1,4 +1,4 @@
-/* JCO UTM tracker v1.8 — loaded from GitHub Pages via <script defer> in the Kajabi header.
+/* JCO UTM tracker v1.9 — loaded from GitHub Pages via <script defer> in the Kajabi header.
  *     Leest utm_* uit de URL, bewaart ze 30 dagen in cookie "jco_src" (laatste klik telt)
  *     en vult het verborgen formulierveld "Lead source" in elk Kajabi-formulier.
  *     Waarde-formaat: source|medium|campaign|content|term  (bijv. chatgpt|cpc|cmpn_123|ad_456, of google|cpc|123|456|kajabi_template))
